@@ -1,5 +1,5 @@
 // live2d_path 参数建议使用绝对路径
-const live2d_path = "https://api.hongyexian.eu.org/live2d-widget-master/";
+const live2d_path = "https://img.hongyexian.eu.org/lll135/live2d/main/live2d-widget-master/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -34,7 +34,7 @@ if (screen.width >= 768) {
 		// 配置选项的具体用法见 README.md
 		initWidget({
 			waifuPath: live2d_path + "waifu-tips.json",
-			apiPath: "https://live2d-f4p.pages.dev/live2d_api-master/",
+			apiPath: "https://img.hongyexian.eu.org/lll135/live2d/main/live2d_api-master/",
 			//cdnPath: "https://s3-us-east-1.ossfiles.com/live2d/live2d_api/",
 			tools: ["hitokoto", "asteroids", "switch-model", "switch-texture", "photo", "info", "quit"]
 		});
